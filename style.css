@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+.dayContainer{
+    margin: 20px auto;
+    width: 410px;
+    background: pink;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+.day, .hour, .minute, .second, .text, .month{
+    width: 90px;
+    height: 50px;
+    background: lightskyblue;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+}
+.text{
+    padding: 0px;
+    width: 60px;
+    font-size: 30px;
+    height: 40px;
+    background: pink;
+}
